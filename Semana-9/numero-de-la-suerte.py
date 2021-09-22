@@ -1,3 +1,11 @@
+'''
+El usuario digita una frase, si la frase tiene caracteres numéricos, deben sumarse, si no se
+indica que el número de la suerte es el 0.
+Ejemplo 1:
+Entrada: “Hoy es viernes 23 de octubre del 2020”
+Salida: “Su número de la suerte es: 9”, pues se suma 2+3+2+0+2+0
+'''
+
 def numero_suerte(p_frase): 
     contador_suerte = 0
     for i in range(0, len(p_frase)):
